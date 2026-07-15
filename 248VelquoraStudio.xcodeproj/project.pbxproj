@@ -3,15 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
 		306B666930080EC40027518A /* 248VelquoraStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 248VelquoraStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1B3C0D8766357DE3597FEB /* Pods_248VelquoraStudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_248VelquoraStudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3DD173A2AA3C29E92BD8CD /* Pods-248VelquoraStudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-248VelquoraStudio.release.xcconfig"; path = "Target Support Files/Pods-248VelquoraStudio/Pods-248VelquoraStudio.release.xcconfig"; sourceTree = "<group>"; };
+		D36602E25715195BC9D3FD70 /* Pods-248VelquoraStudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-248VelquoraStudio.debug.xcconfig"; path = "Target Support Files/Pods-248VelquoraStudio/Pods-248VelquoraStudio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		306B667B30080EC50027518A /* Exceptions for "248VelquoraStudio" folder in "248VelquoraStudio" target */ = {
+		306B66A330080EF80027518A /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,14 +24,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		306B666B30080EC40027518A /* 248VelquoraStudio */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				306B667B30080EC50027518A /* Exceptions for "248VelquoraStudio" folder in "248VelquoraStudio" target */,
-			);
-			path = 248VelquoraStudio;
-			sourceTree = "<group>";
-		};
+		306B669B30080EF50027518A /* 248VelquoraStudio */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (306B66A330080EF80027518A /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 248VelquoraStudio; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +41,10 @@
 		306B666030080EC40027518A = {
 			isa = PBXGroup;
 			children = (
-				306B666B30080EC40027518A /* 248VelquoraStudio */,
+				306B669B30080EF50027518A /* 248VelquoraStudio */,
 				306B666A30080EC40027518A /* Products */,
+				EFDBC22EFCF600CC36DD4ACC /* Pods */,
+				3F647653338B22ECCD4B0899 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +56,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3F647653338B22ECCD4B0899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD1B3C0D8766357DE3597FEB /* Pods_248VelquoraStudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFDBC22EFCF600CC36DD4ACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D36602E25715195BC9D3FD70 /* Pods-248VelquoraStudio.debug.xcconfig */,
+				AD3DD173A2AA3C29E92BD8CD /* Pods-248VelquoraStudio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +80,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 306B667C30080EC50027518A /* Build configuration list for PBXNativeTarget "248VelquoraStudio" */;
 			buildPhases = (
+				143489914941A2E718B32DEE /* [CP] Check Pods Manifest.lock */,
 				306B666530080EC40027518A /* Sources */,
 				306B666630080EC40027518A /* Frameworks */,
 				306B666730080EC40027518A /* Resources */,
@@ -74,11 +90,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				306B666B30080EC40027518A /* 248VelquoraStudio */,
+				306B669B30080EF50027518A /* 248VelquoraStudio */,
 			);
 			name = 248VelquoraStudio;
-			packageProductDependencies = (
-			);
 			productName = 248VelquoraStudio;
 			productReference = 306B666930080EC40027518A /* 248VelquoraStudio.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +113,7 @@
 				};
 			};
 			buildConfigurationList = 306B666430080EC40027518A /* Build configuration list for PBXProject "248VelquoraStudio" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +121,6 @@
 				Base,
 			);
 			mainGroup = 306B666030080EC40027518A;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 306B666A30080EC40027518A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +140,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		143489914941A2E718B32DEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-248VelquoraStudio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		306B666530080EC40027518A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +178,7 @@
 /* Begin XCBuildConfiguration section */
 		306B667D30080EC50027518A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36602E25715195BC9D3FD70 /* Pods-248VelquoraStudio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -152,6 +191,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -160,6 +200,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "home.-48VelquoraStudio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -171,6 +215,7 @@
 		};
 		306B667E30080EC50027518A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3DD173A2AA3C29E92BD8CD /* Pods-248VelquoraStudio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -183,6 +228,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -191,6 +237,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "home.-48VelquoraStudio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;

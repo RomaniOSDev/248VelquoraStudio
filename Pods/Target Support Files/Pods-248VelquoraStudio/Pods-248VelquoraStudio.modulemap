@@ -1,0 +1,6 @@
+framework module Pods_248VelquoraStudio {
+  umbrella header "Pods-248VelquoraStudio-umbrella.h"
+
+  export *
+  module * { export * }
+}
