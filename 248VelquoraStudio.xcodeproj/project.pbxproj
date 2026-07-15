@@ -3,29 +3,95 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		306B68BB30081BD50027518A /* AppCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B688230081BD50027518A /* AppCells.swift */; };
+		306B68BC30081BD50027518A /* DepthDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B688330081BD50027518A /* DepthDesign.swift */; };
+		306B68BD30081BD50027518A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B688430081BD50027518A /* MainTabView.swift */; };
+		306B68BE30081BD50027518A /* SharedUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B688530081BD50027518A /* SharedUI.swift */; };
+		306B68BF30081BD50027518A /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B688630081BD50027518A /* ViewModifiers.swift */; };
+		306B68C030081BD50027518A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B688830081BD50027518A /* Models.swift */; };
+		306B68C130081BD50027518A /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B688A30081BD50027518A /* AppDataStore.swift */; };
+		306B68C230081BD50027518A /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B688B30081BD50027518A /* AppLink.swift */; };
+		306B68C330081BD50027518A /* SensoryFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B688C30081BD50027518A /* SensoryFeedback.swift */; };
+		306B68C430081BD50027518A /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B688F30081BD50027518A /* AchievementsView.swift */; };
+		306B68C530081BD50027518A /* HubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B689130081BD50027518A /* HubView.swift */; };
+		306B68C630081BD50027518A /* JournalHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B689330081BD50027518A /* JournalHubView.swift */; };
+		306B68C730081BD50027518A /* SessionEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B689430081BD50027518A /* SessionEditorView.swift */; };
+		306B68C830081BD50027518A /* SessionsLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B689530081BD50027518A /* SessionsLogView.swift */; };
+		306B68C930081BD50027518A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B689730081BD50027518A /* OnboardingView.swift */; };
+		306B68CA30081BD50027518A /* OrganizeHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B689930081BD50027518A /* OrganizeHubView.swift */; };
+		306B68CB30081BD50027518A /* TaskInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B689A30081BD50027518A /* TaskInsightsView.swift */; };
+		306B68CC30081BD50027518A /* TaskInsightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B689B30081BD50027518A /* TaskInsightsViewModel.swift */; };
+		306B68CD30081BD50027518A /* TaskSchedulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B689C30081BD50027518A /* TaskSchedulerView.swift */; };
+		306B68CE30081BD50027518A /* TaskSchedulerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B689D30081BD50027518A /* TaskSchedulerViewModel.swift */; };
+		306B68CF30081BD50027518A /* ReadingPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B689F30081BD50027518A /* ReadingPlannerView.swift */; };
+		306B68D030081BD50027518A /* ReadingPlannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68A030081BD50027518A /* ReadingPlannerViewModel.swift */; };
+		306B68D130081BD50027518A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68A230081BD50027518A /* SettingsView.swift */; };
+		306B68D230081BD50027518A /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68A430081BD50027518A /* BookDetailView.swift */; };
+		306B68D330081BD50027518A /* BookEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68A530081BD50027518A /* BookEditorView.swift */; };
+		306B68D430081BD50027518A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68A630081BD50027518A /* HomeView.swift */; };
+		306B68D530081BD50027518A /* ShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68A730081BD50027518A /* ShelfView.swift */; };
+		306B68D630081BD50027518A /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68A930081BD50027518A /* GoalsView.swift */; };
+		306B68D730081BD50027518A /* QuotesVaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68AA30081BD50027518A /* QuotesVaultView.swift */; };
+		306B68D830081BD50027518A /* VaultHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68AB30081BD50027518A /* VaultHubView.swift */; };
+		306B68D930081BD50027518A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68B030081BD50027518A /* AppDelegate.swift */; };
+		306B68DA30081BD50027518A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68B230081BD50027518A /* ContentView.swift */; };
+		306B68DB30081BD50027518A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68B830081BD50027518A /* SceneDelegate.swift */; };
+		306B68DC30081BD50027518A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B68B930081BD50027518A /* ViewController.swift */; };
+		306B68DD30081BD50027518A /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 306B68AE30081BD50027518A /* privacy_policy.md */; };
+		306B68DE30081BD50027518A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306B68B130081BD50027518A /* Assets.xcassets */; };
+		306B68E030081BD50027518A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306B68B530081BD50027518A /* LaunchScreen.storyboard */; };
+		306B68E130081BD50027518A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306B68B730081BD50027518A /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		306B666930080EC40027518A /* 248VelquoraStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 248VelquoraStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		306B688230081BD50027518A /* AppCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCells.swift; sourceTree = "<group>"; };
+		306B688330081BD50027518A /* DepthDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthDesign.swift; sourceTree = "<group>"; };
+		306B688430081BD50027518A /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		306B688530081BD50027518A /* SharedUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedUI.swift; sourceTree = "<group>"; };
+		306B688630081BD50027518A /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		306B688830081BD50027518A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		306B688A30081BD50027518A /* AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		306B688B30081BD50027518A /* AppLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLink.swift; sourceTree = "<group>"; };
+		306B688C30081BD50027518A /* SensoryFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensoryFeedback.swift; sourceTree = "<group>"; };
+		306B688F30081BD50027518A /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		306B689130081BD50027518A /* HubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubView.swift; sourceTree = "<group>"; };
+		306B689330081BD50027518A /* JournalHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalHubView.swift; sourceTree = "<group>"; };
+		306B689430081BD50027518A /* SessionEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionEditorView.swift; sourceTree = "<group>"; };
+		306B689530081BD50027518A /* SessionsLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsLogView.swift; sourceTree = "<group>"; };
+		306B689730081BD50027518A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		306B689930081BD50027518A /* OrganizeHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizeHubView.swift; sourceTree = "<group>"; };
+		306B689A30081BD50027518A /* TaskInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInsightsView.swift; sourceTree = "<group>"; };
+		306B689B30081BD50027518A /* TaskInsightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInsightsViewModel.swift; sourceTree = "<group>"; };
+		306B689C30081BD50027518A /* TaskSchedulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSchedulerView.swift; sourceTree = "<group>"; };
+		306B689D30081BD50027518A /* TaskSchedulerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSchedulerViewModel.swift; sourceTree = "<group>"; };
+		306B689F30081BD50027518A /* ReadingPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingPlannerView.swift; sourceTree = "<group>"; };
+		306B68A030081BD50027518A /* ReadingPlannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingPlannerViewModel.swift; sourceTree = "<group>"; };
+		306B68A230081BD50027518A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		306B68A430081BD50027518A /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		306B68A530081BD50027518A /* BookEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEditorView.swift; sourceTree = "<group>"; };
+		306B68A630081BD50027518A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		306B68A730081BD50027518A /* ShelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfView.swift; sourceTree = "<group>"; };
+		306B68A930081BD50027518A /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		306B68AA30081BD50027518A /* QuotesVaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesVaultView.swift; sourceTree = "<group>"; };
+		306B68AB30081BD50027518A /* VaultHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultHubView.swift; sourceTree = "<group>"; };
+		306B68AE30081BD50027518A /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		306B68B030081BD50027518A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		306B68B130081BD50027518A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306B68B230081BD50027518A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		306B68B330081BD50027518A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306B68B430081BD50027518A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		306B68B630081BD50027518A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		306B68B830081BD50027518A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		306B68B930081BD50027518A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD1B3C0D8766357DE3597FEB /* Pods_248VelquoraStudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_248VelquoraStudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3DD173A2AA3C29E92BD8CD /* Pods-248VelquoraStudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-248VelquoraStudio.release.xcconfig"; path = "Target Support Files/Pods-248VelquoraStudio/Pods-248VelquoraStudio.release.xcconfig"; sourceTree = "<group>"; };
 		D36602E25715195BC9D3FD70 /* Pods-248VelquoraStudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-248VelquoraStudio.debug.xcconfig"; path = "Target Support Files/Pods-248VelquoraStudio/Pods-248VelquoraStudio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		306B66A330080EF80027518A /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 306B666830080EC40027518A /* 248VelquoraStudio */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		306B669B30080EF50027518A /* 248VelquoraStudio */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (306B66A330080EF80027518A /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 248VelquoraStudio; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		306B666630080EC40027518A /* Frameworks */ = {
@@ -41,7 +107,7 @@
 		306B666030080EC40027518A = {
 			isa = PBXGroup;
 			children = (
-				306B669B30080EF50027518A /* 248VelquoraStudio */,
+				306B68BA30081BD50027518A /* 248VelquoraStudio */,
 				306B666A30080EC40027518A /* Products */,
 				EFDBC22EFCF600CC36DD4ACC /* Pods */,
 				3F647653338B22ECCD4B0899 /* Frameworks */,
@@ -54,6 +120,172 @@
 				306B666930080EC40027518A /* 248VelquoraStudio.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		306B688730081BD50027518A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				306B688230081BD50027518A /* AppCells.swift */,
+				306B688330081BD50027518A /* DepthDesign.swift */,
+				306B688430081BD50027518A /* MainTabView.swift */,
+				306B688530081BD50027518A /* SharedUI.swift */,
+				306B688630081BD50027518A /* ViewModifiers.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		306B688930081BD50027518A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				306B688830081BD50027518A /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		306B688D30081BD50027518A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				306B688A30081BD50027518A /* AppDataStore.swift */,
+				306B688B30081BD50027518A /* AppLink.swift */,
+				306B688C30081BD50027518A /* SensoryFeedback.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		306B688E30081BD50027518A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				306B688730081BD50027518A /* Components */,
+				306B688930081BD50027518A /* Models */,
+				306B688D30081BD50027518A /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		306B689030081BD50027518A /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				306B688F30081BD50027518A /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		306B689230081BD50027518A /* Hub */ = {
+			isa = PBXGroup;
+			children = (
+				306B689130081BD50027518A /* HubView.swift */,
+			);
+			path = Hub;
+			sourceTree = "<group>";
+		};
+		306B689630081BD50027518A /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				306B689330081BD50027518A /* JournalHubView.swift */,
+				306B689430081BD50027518A /* SessionEditorView.swift */,
+				306B689530081BD50027518A /* SessionsLogView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		306B689830081BD50027518A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				306B689730081BD50027518A /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		306B689E30081BD50027518A /* Organize */ = {
+			isa = PBXGroup;
+			children = (
+				306B689930081BD50027518A /* OrganizeHubView.swift */,
+				306B689A30081BD50027518A /* TaskInsightsView.swift */,
+				306B689B30081BD50027518A /* TaskInsightsViewModel.swift */,
+				306B689C30081BD50027518A /* TaskSchedulerView.swift */,
+				306B689D30081BD50027518A /* TaskSchedulerViewModel.swift */,
+			);
+			path = Organize;
+			sourceTree = "<group>";
+		};
+		306B68A130081BD50027518A /* ReadingPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				306B689F30081BD50027518A /* ReadingPlannerView.swift */,
+				306B68A030081BD50027518A /* ReadingPlannerViewModel.swift */,
+			);
+			path = ReadingPlanner;
+			sourceTree = "<group>";
+		};
+		306B68A330081BD50027518A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				306B68A230081BD50027518A /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		306B68A830081BD50027518A /* Shelf */ = {
+			isa = PBXGroup;
+			children = (
+				306B68A430081BD50027518A /* BookDetailView.swift */,
+				306B68A530081BD50027518A /* BookEditorView.swift */,
+				306B68A630081BD50027518A /* HomeView.swift */,
+				306B68A730081BD50027518A /* ShelfView.swift */,
+			);
+			path = Shelf;
+			sourceTree = "<group>";
+		};
+		306B68AC30081BD50027518A /* Vault */ = {
+			isa = PBXGroup;
+			children = (
+				306B68A930081BD50027518A /* GoalsView.swift */,
+				306B68AA30081BD50027518A /* QuotesVaultView.swift */,
+				306B68AB30081BD50027518A /* VaultHubView.swift */,
+			);
+			path = Vault;
+			sourceTree = "<group>";
+		};
+		306B68AD30081BD50027518A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				306B689030081BD50027518A /* Achievements */,
+				306B689230081BD50027518A /* Hub */,
+				306B689630081BD50027518A /* Journal */,
+				306B689830081BD50027518A /* Onboarding */,
+				306B689E30081BD50027518A /* Organize */,
+				306B68A130081BD50027518A /* ReadingPlanner */,
+				306B68A330081BD50027518A /* Settings */,
+				306B68A830081BD50027518A /* Shelf */,
+				306B68AC30081BD50027518A /* Vault */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		306B68AF30081BD50027518A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				306B68AE30081BD50027518A /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		306B68BA30081BD50027518A /* 248VelquoraStudio */ = {
+			isa = PBXGroup;
+			children = (
+				306B688E30081BD50027518A /* Core */,
+				306B68AD30081BD50027518A /* Features */,
+				306B68AF30081BD50027518A /* Resources */,
+				306B68B030081BD50027518A /* AppDelegate.swift */,
+				306B68B130081BD50027518A /* Assets.xcassets */,
+				306B68B230081BD50027518A /* ContentView.swift */,
+				306B68B330081BD50027518A /* Info.plist */,
+				306B68B530081BD50027518A /* LaunchScreen.storyboard */,
+				306B68B730081BD50027518A /* Main.storyboard */,
+				306B68B830081BD50027518A /* SceneDelegate.swift */,
+				306B68B930081BD50027518A /* ViewController.swift */,
+			);
+			path = 248VelquoraStudio;
 			sourceTree = "<group>";
 		};
 		3F647653338B22ECCD4B0899 /* Frameworks */ = {
@@ -88,9 +320,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				306B669B30080EF50027518A /* 248VelquoraStudio */,
 			);
 			name = 248VelquoraStudio;
 			productName = 248VelquoraStudio;
@@ -135,6 +364,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306B68DD30081BD50027518A /* privacy_policy.md in Resources */,
+				306B68DE30081BD50027518A /* Assets.xcassets in Resources */,
+				306B68E030081BD50027518A /* LaunchScreen.storyboard in Resources */,
+				306B68E130081BD50027518A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +403,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306B68BB30081BD50027518A /* AppCells.swift in Sources */,
+				306B68BC30081BD50027518A /* DepthDesign.swift in Sources */,
+				306B68BD30081BD50027518A /* MainTabView.swift in Sources */,
+				306B68BE30081BD50027518A /* SharedUI.swift in Sources */,
+				306B68BF30081BD50027518A /* ViewModifiers.swift in Sources */,
+				306B68C030081BD50027518A /* Models.swift in Sources */,
+				306B68C130081BD50027518A /* AppDataStore.swift in Sources */,
+				306B68C230081BD50027518A /* AppLink.swift in Sources */,
+				306B68C330081BD50027518A /* SensoryFeedback.swift in Sources */,
+				306B68C430081BD50027518A /* AchievementsView.swift in Sources */,
+				306B68C530081BD50027518A /* HubView.swift in Sources */,
+				306B68C630081BD50027518A /* JournalHubView.swift in Sources */,
+				306B68C730081BD50027518A /* SessionEditorView.swift in Sources */,
+				306B68C830081BD50027518A /* SessionsLogView.swift in Sources */,
+				306B68C930081BD50027518A /* OnboardingView.swift in Sources */,
+				306B68CA30081BD50027518A /* OrganizeHubView.swift in Sources */,
+				306B68CB30081BD50027518A /* TaskInsightsView.swift in Sources */,
+				306B68CC30081BD50027518A /* TaskInsightsViewModel.swift in Sources */,
+				306B68CD30081BD50027518A /* TaskSchedulerView.swift in Sources */,
+				306B68CE30081BD50027518A /* TaskSchedulerViewModel.swift in Sources */,
+				306B68CF30081BD50027518A /* ReadingPlannerView.swift in Sources */,
+				306B68D030081BD50027518A /* ReadingPlannerViewModel.swift in Sources */,
+				306B68D130081BD50027518A /* SettingsView.swift in Sources */,
+				306B68D230081BD50027518A /* BookDetailView.swift in Sources */,
+				306B68D330081BD50027518A /* BookEditorView.swift in Sources */,
+				306B68D430081BD50027518A /* HomeView.swift in Sources */,
+				306B68D530081BD50027518A /* ShelfView.swift in Sources */,
+				306B68D630081BD50027518A /* GoalsView.swift in Sources */,
+				306B68D730081BD50027518A /* QuotesVaultView.swift in Sources */,
+				306B68D830081BD50027518A /* VaultHubView.swift in Sources */,
+				306B68D930081BD50027518A /* AppDelegate.swift in Sources */,
+				306B68DA30081BD50027518A /* ContentView.swift in Sources */,
+				306B68DB30081BD50027518A /* SceneDelegate.swift in Sources */,
+				306B68DC30081BD50027518A /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		306B68B530081BD50027518A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306B68B430081BD50027518A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		306B68B730081BD50027518A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306B68B630081BD50027518A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		306B667D30080EC50027518A /* Debug */ = {
