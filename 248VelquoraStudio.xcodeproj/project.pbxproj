@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -59,6 +59,7 @@
 		30FC04A930136F41001A7AD8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30FC046F30136F41001A7AD8 /* GoogleService-Info.plist */; };
 		30FC04AB30136F41001A7AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FC047230136F41001A7AD8 /* LaunchScreen.storyboard */; };
 		30FC04AC30136F41001A7AD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FC047430136F41001A7AD8 /* Main.storyboard */; };
+		30FC04B430137190001A7AD8 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FC04B230137190001A7AD8 /* NotificationService.swift */; };
 		A1BF001030136A01001A7AD8 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A1BF001130136A01001A7AD8 /* FirebaseMessaging */; };
 		A1BF001230136A01001A7AD8 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = A1BF001330136A01001A7AD8 /* AppsFlyerLib-Static */; };
 		A1BF001430136A01001A7AD8 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A1BF001530136A01001A7AD8 /* FirebaseMessaging */; };
@@ -145,25 +146,13 @@
 		30FC047330136F41001A7AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30FC047530136F41001A7AD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		30FC047630136F41001A7AD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30FC04B130137190001A7AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FC04B230137190001A7AD8 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		A1BF001730136A01001A7AD8 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1B3C0D8766357DE3597FEB /* Pods_248VelquoraStudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_248VelquoraStudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3DD173A2AA3C29E92BD8CD /* Pods-248VelquoraStudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-248VelquoraStudio.release.xcconfig"; path = "Target Support Files/Pods-248VelquoraStudio/Pods-248VelquoraStudio.release.xcconfig"; sourceTree = "<group>"; };
 		D36602E25715195BC9D3FD70 /* Pods-248VelquoraStudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-248VelquoraStudio.debug.xcconfig"; path = "Target Support Files/Pods-248VelquoraStudio/Pods-248VelquoraStudio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A1BF001B30136A01001A7AD8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = A1BF001930136A01001A7AD8 /* NotificationServiceExtension */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A1BF001C30136A01001A7AD8 /* NotificationServiceExtension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (A1BF001B30136A01001A7AD8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = NotificationServiceExtension; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		306B666630080EC40027518A /* Frameworks */ = {
@@ -190,7 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				30FC047730136F41001A7AD8 /* 248VelquoraStudio */,
-				A1BF001C30136A01001A7AD8 /* NotificationServiceExtension */,
+				30FC04B330137190001A7AD8 /* NotificationServiceExtension */,
 				306B666A30080EC40027518A /* Products */,
 				EFDBC22EFCF600CC36DD4ACC /* Pods */,
 				3F647653338B22ECCD4B0899 /* Frameworks */,
@@ -395,6 +384,15 @@
 			path = 248VelquoraStudio;
 			sourceTree = "<group>";
 		};
+		30FC04B330137190001A7AD8 /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				30FC04B130137190001A7AD8 /* Info.plist */,
+				30FC04B230137190001A7AD8 /* NotificationService.swift */,
+			);
+			path = NotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 		3F647653338B22ECCD4B0899 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -450,9 +448,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A1BF001C30136A01001A7AD8 /* NotificationServiceExtension */,
 			);
 			name = NotificationServiceExtension;
 			packageProductDependencies = (
@@ -609,6 +604,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FC04B430137190001A7AD8 /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
